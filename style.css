@@ -1,0 +1,51 @@
+* Basic Reset */
+* {
+  margin: 10;
+  padding: 10;
+  box-sizing: border-box;
+}
+
+body {
+ font-style: italic;
+ font-family: cursive;
+ font-weight: 500;
+ background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  /* Vertical centering */
+  align-items: center;      /* Horizontal centering */
+  min-height: 150vh;        /* Full screen height */
+  margin: 200px;
+}
+
+header, section 
+{
+  margin width: 100px; px;;
+  text-align: center;
+}
+footer 
+{
+  margin-top: auto;
+  text-align: right;
+}
+#greeting img {
+  display: block;
+  margin: 10px auto;
+}
+
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  input, button {
+    width: 100%;
+    margin-top: 8px;
+  }
+}
+
+
+
+
+
